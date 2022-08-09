@@ -16,4 +16,4 @@
 
 <br><br><br><br>
 
-<img alt="Joke" src="https://gagz.ru/wp-content/uploads/2020/11/img_20201125_173213_491.jpg">
+<img alt="Mem" src="https://gagz.ru/wp-content/uploads/2020/11/img_20201125_173213_491.jpg">
