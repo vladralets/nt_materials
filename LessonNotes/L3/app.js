@@ -29,6 +29,7 @@
 // while (number) console.log(number--)
 
 // do while
+
 // do {} while()
 
 // let number = 0
@@ -36,6 +37,13 @@
 //     console.log(number)
 //     number++
 // } while (number <= 1000)
+
+// let num = 0
+
+// while(num <= 1000) {
+//     console.log(num)
+//     num++
+// }
 
 // Цикл for
 
@@ -96,27 +104,27 @@
 
 // Попереднє ДЗ
 
-let userName = prompt('What is you name?')
+// let userName = prompt('What is you name?')
 
-while(userName == null || userName == '' || !isNaN(+userName)) {
-    alert('Ти шо, Вася?')
-    userName = prompt('Вася, я пиитаю, як тебе звати?')
-}
+// while(userName == null || userName == '' || !isNaN(+userName)) {
+//     alert('Ти шо, Вася?')
+//     userName = prompt('Вася, я пиитаю, як тебе звати?')
+// }
 
-console.log(userName)
+// console.log(userName)
 
-let userAge = +prompt('What is your age?')
-while(isNaN(userAge)) {
-    alert('Enter a valid number!')
-    userAge = +prompt('What is your age?')
-}
+// let userAge = +prompt('What is your age?')
+// while(isNaN(userAge)) {
+//     alert('Enter a valid number!')
+//     userAge = +prompt('What is your age?')
+// }
 
-if (userAge < 18) {
-    alert('Доступ заборонено, приходьте пізніше')
-} else if ( userAge >= 18 && userAge <= 22) {
-    let res = confirm('Are you shure?')
-    res ? `Wellcome ${userName}` : `${userName}, u are not allowed to enter`
-} else {
-    alert(`Wellcome, ${userName}!`)
-}
+// if (userAge < 18) {
+//     alert('Доступ заборонено, приходьте пізніше')
+// } else if ( userAge >= 18 && userAge <= 22) {
+//     let res = confirm('Are you shure?')
+//     res ? `Wellcome ${userName}` : `${userName}, u are not allowed to enter`
+// } else {
+//     alert(`Wellcome, ${userName}!`)
+// }
 
