@@ -11,11 +11,6 @@
 [Справочник по событиям](https://developer.mozilla.org/ru/docs/Web/Events)<br>
 [Колбэк-функция](https://developer.mozilla.org/ru/docs/Glossary/Callback_function)<br>
 
-<b>Видео:</b><br>
-[Основы javascript 16 - DOM (объектная модель документа)](https://www.youtube.com/watch?v=1FpuKVmotNc)<br>
-[Учим JavaScript 40. Работаем с DOM (1)](https://www.youtube.com/watch?v=Bo7c02JMsKA)<br>
-[Учим JavaScript 41. Работаем с DOM (2)](https://www.youtube.com/watch?v=6wgWnpXFjeY)<br>
-
 
 <h2>Домашнее задание 1</h2>
 <p>Создать поле для ввода цены с валидацией.</p>
