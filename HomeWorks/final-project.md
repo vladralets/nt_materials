@@ -1,57 +1,109 @@
-<h1>Материалы к подготовке к уроку #11</h1>
+<h1>Задание для финального проекта</h1>
 
-<b>Основные материалы:</b><br>
-[Страница: DOMContentLoaded, load, beforeunload, unload](https://learn.javascript.ru/onload-ondomcontentloaded)<br>
-[Клавиатура: keydown и keyup](https://learn.javascript.ru/keyboard-events)<br>
-[Прокрутка](https://learn.javascript.ru/onscroll)<br>
+<h2>Задание</h2>
+<p>Сверстать <a href="https://www.figma.com/file/S4DQxhRyLRsZJcMpvRdjiG/Skillz?node-id=0%3A1">макет</a>. Подключить динамические элементы.</p>
 
-<b>Дополнительные материалы:</b><br>
-[Загрузка ресурсов: onload и onerror](https://learn.javascript.ru/onload-onerror)<br>
-
-<b>Видео:</b><br>
-[Клавиши клавиатуры - onkeypress](https://www.youtube.com/watch?v=UNQIal4B3j0)<br>
-[Двигаем блок стрелками мыши](https://www.youtube.com/watch?v=EhtDfpOoUBo)<br>
-[Прокрутка колесом мыши](https://www.youtube.com/watch?v=BQEWR0uLDIQ)<br>
-
-
-<h2>Домашнее задание 1</h2>
-<p>Написать реализацию кнопки "Показать пароль".</p>
-
-<b>Технические требования:</b>
+<h2>Динамические элементы на странице</h2>
 <ul>
-    <li>В файле <code>Homework-buttons.html</code> в папке <code>files</code> лежит разметка для двух полей ввода пароля;</li>
     <li>
-        По нажатию на иконку рядом с конкретным полем - должны отображаться символы, которые ввел пользователь, иконка меняет свой внешний вид. 
-        В комментариях под иконкой - иконка другая, именно она должна отображаться вместо текущей;
+        <code>Кнопка Learn more в хедере</code> - При нажатии должно показываться модальное окно с двумя <code>input</code> и кнопкой,
+        где пользователь должен ввести имя и email. При сабмите формы данные с формы вывести в консоль.
     </li>
-    <li>Когда пароля не видно - иконка поля должна выглядеть, как та, что в первом поле (Ввести пароль);</li>
-    <li>Когда нажата иконка, она должна выглядеть, как та, что во втором поле (Ввести пароль);</li>
-    <li>По нажатию на кнопку Подтвердить, нужно сравнить введенные значения в полях;</li>
-    <li>Если значения совпадают - вывести модальное окно (можно alert) с текстом - <code>You are welcome</code>;</li>
-    <li>Если значение не совпадают - вывести под вторым полем текст красного цвета <code>Нужно ввести одинаковые значения;</code></li>
-    <li>После нажатия на кнопку страница не должна перезагружаться;</li>
-    <li>Можно менять разметку, добавлять атрибуты, теги, id, классы и так далее.</li>
-</ul>
-
-
-
-<h2>Домашнее задание 2</h2>
-<p>Реализовать функцию подсветки нажимаемых клавиш.</p>
-
-<b>Технические требования:</b>
-<ul>
-    <li>В файле <code>Homework-buttons-2.html</code> в папке <code>files</code> лежит разметка для кнопок;</li>
-    <li>Каждая кнопка содержит в себе название клавиши на клавиатуре;</li>
     <li>
-        По нажатию указанных клавиш - та кнопка, на которой написана эта буква, должна окрашиваться в синий цвет. 
-        При этом, если какая-то другая буква уже ранее была окрашена в синий цвет - она становится черной. 
-        Например, по нажатию <code>Enter</code> первая кнопка окрашивается в синий цвет. 
-        Далее, пользователь нажимает <code>S</code>, и кнопка <code>S</code> окрашивается в синий цвет, 
-        а кнопка <code>Enter</code> опять становится черной.
+        <code>Список курсов, кнопка VIEW ALL COURSES</code> - При загрузке страницы динамически должно выводить первые 3 элемента
+        с объекта <code>courses</code>. При нажатии на кнопку пользователю должны выпасть остальные курсы.
+    </li>
+    <li>
+        <code>Текстовый блок, кнопка CONTACT US</code> - При нажатии на кнопку должна всплывать то самое модальное окно, что и в первом элементе.
+    </li>
+    <li>
+        <code>Список воркшопов, кнопка VIEW ALL WORKSHOPS</code> - При загрузке страницы динамически должно выводить первые 3 элемента
+        с объекта <code>Workshops</code>. При нажатии на кнопку пользователю должны выпасть остальные курсы.
+    </li>
+    <li>
+        <code>Отзывы</code> - Отзывы должны создаваться динамично. Количество звезд должно быть равно рейтингу в отзыве.
+        При нажатии на точки снизу должен меняться отзыв. Так же отзывы должны меняться самостоятельно по происхождению времени.
+    </li>
+    <li>
+        <code>Блок с Email</code> - При сабмите формы информация с инпута должна выводится в консоль.
     </li>
 </ul>
 
-<br>
+<h2>Дополнительные требования</h2>
+<ul>
+    <li>
+        При разработке нужно использовать git.
+    </li>
+    <li>
+        При проверке будет также учитываться чистота написания кода.
+    </li>
+</ul>
 
 
-<img alt="Mem" src="https://i.pinimg.com/564x/d2/b5/89/d2b58979e9df9a04d3af6430d5636caa.jpg">
+<i>Courses</i></br>
+<code>
+[
+    {
+        img: 'http://www.goodmorningimagesdownload.com/wp-content/uploads/2021/07/Free-Funny-Images-Wallpaper-300x249.jpg',
+        title: 'How to Increase Your Engagement on Instagram',
+        author: 'Katie Murphy'
+        price: 59.99
+    },
+    {
+        img: 'http://www.goodmorningimagesdownload.com/wp-content/uploads/2021/07/Free-Funny-Images-Wallpaper-300x249.jpg',
+        title: 'Business 101: Setting up Your Taxes',
+        author: 'Bessie Cooper'
+        price: 49.99
+    },
+    {
+        img: 'http://www.goodmorningimagesdownload.com/wp-content/uploads/2021/07/Free-Funny-Images-Wallpaper-300x249.jpg',
+        title: 'iPhone Photography: Tips, Tricks and Best Practices',
+        author: 'Dianne Russell'
+        price: 58.50
+    },
+    {
+        img: 'http://www.goodmorningimagesdownload.com/wp-content/uploads/2021/07/Free-Funny-Images-Wallpaper-300x249.jpg',
+        title: 'JS in backend',
+        author: 'Gogi Doe'
+        price: 105.50
+    },
+]
+</code>
+
+<i>Workshops</i></br>
+<code>
+[
+    {
+        title: 'Photography Basics',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.',
+    },
+    {
+        title: 'Business 101',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.',
+    },
+    {
+        title: 'Social Networking Camp.',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.',   
+    },
+    {
+        title: 'Pickup in small city',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.',
+    },
+]
+</code>
+
+<i>Reviews</i></br>
+<code>
+[
+    {
+        text: 'Kate’s courses are a game changer. She’s thorough, organized, and explains things in a no-nonsense way that makes it easy for anyone—beginners to experts—to learn something from her courses and take their game to the next level.',
+        author: 'James Brown,',
+        rating: 5
+    },
+    {
+        text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.',
+        author: 'Elton John',
+        rating: 4
+    },
+]
+</code>
