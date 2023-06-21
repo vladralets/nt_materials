@@ -1,15 +1,14 @@
-# Lesson 17
-*Promise*
+# Lesson 19
+*async/await. Цикл событий. Асинхронность в JS.*
 
 ## Main materials
-[Промисы](https://learn.javascript.ru/promise-basics#potrebiteli-then-catch-finally)  
-[Промисы на примерах из жизни](https://medium.com/web-standards/promises-explained-caee4c9b86d0)  
-[Storage](https://developer.mozilla.org/ru/docs/Web/API/Storage)  
+[Async/await](https://learn.javascript.ru/async-await)  
+[Полное понимание синхронного и асинхронного JavaScript с Async/Await](https://stasonmars.ru/javascript/polnoe-ponimanie-syncronnogo-i-asyncronnogo-javascript-s-async-await/)  
+[Объяснение работы EventLoop в JavaScript](https://medium.com/devschacht/javascript-eventloop-explained-f2dcf84e36ee)  
 
 ## Secondary materials
-[JavaScript Promise Tutorial: Resolve, Reject, and Chaining in JS and ES6](https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/)  
-[Промисы](https://frontender.info/promises/)  
+[Конструкция async/await в JavaScript: сильные стороны, подводные камни и особенности использования](https://habr.com/ru/companies/ruvds/articles/414373/)  
 
 ## Video
 
-[Promise. Что это, как работает ](https://www.youtube.com/watch?v=1idOY3C1gYU&t=862s)  
+[ Как работает Async, Await. Работа с сервером c fetch](https://www.youtube.com/watch?v=SHiUyM_fFME)  
